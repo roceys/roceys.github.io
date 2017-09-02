@@ -18,20 +18,17 @@ var _hmt = _hmt || [];
 	
 	 <meta name="description" content="Mobile Legends: Bang bang旗舰娘PVP 5V5 Arena of valor 王者荣耀台服欧服韩服美服熊猫直播pandatv斗鱼直播虎牙直播快手直播企鹅直播刘杀鸡QGhappy腾讯直播网易直播we网红美女ROCEYS主播吃鸡绝地大逃杀微博twitter、google、youtube...">
 	  <meta name="apple-mobile-web-app-title" content="PVP 5V5 Arena of valor 王者荣耀台服欧服韩服美服熊猫直播pandatv斗鱼虎牙直播中国第一网红美女主播Roceys">
-	 
-<title>Mobile Legends: Bang bang旗舰娘PVP 5V5 Arena of valor王者荣耀台服欧服韩服美服熊猫直播pandatv刘杀鸡QGhappy斗鱼虎牙直播WE中国第一网红美女主播Roceys</title>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-105700856-1', 'auto');
-  ga('set', 'forceSSL', true);
-  ga('send', 'pageview');
-</script>
+<h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
-<body center="center">
+<body>
+ <header>
+<div class="container">
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+</div>
+</header>
 <h1>Hello World！</h1>
 <h1><b>666. six six six..</b></h1>
 <p>
@@ -660,5 +657,17 @@ Poptacular Ltd	Free	$2,536	30,361
 
 Pixel Gun 3D
 </p>
+{% if site.google_analytics %}
+      <script type="text/javascript">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.google_analytics }}', 'auto');
+  ga('set', 'forceSSL', true);
+  ga('send', 'pageview');
+      </script>
+    {% endif %}
 </body>
 </html>
