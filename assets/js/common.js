@@ -51,7 +51,7 @@ $(document).ready(function(){
     function showDate() {
         var sValue = getFullYear(dNow) + "年" + (dNow.getMonth() + 1) + "月" + dNow.getDate() + "日" + " "+h+":"+minute+":"+s+" " + sWeek[dNow.getDay()] + "\n";
         sValue += GetLunarDay(yy, mm, dd);
-        $("#pDate").text = sValue;
+        $("#pDate").html = sValue;
     }
-    window.onload = showDate;
+    setInterval(showDate, 1000);
 });
