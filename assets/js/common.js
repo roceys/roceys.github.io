@@ -57,7 +57,7 @@ function showDate() {
     if(s<10){
         s = "0"+s;
     }
-    var sValue = getFullYear(dNow) + "年" + (dNow.getMonth() + 1) + "月" + dNow.getDate() + "日" + " "+h+":"+minute+":"+s+"<br>" + sWeek[dNow.getDay()] + " ";
+    var sValue = getFullYear(dNow) + "年" + (dNow.getMonth() + 1) + "月" + dNow.getDate() + "日" + " "+h+":"+minute+":"+s+"<br>"+ "  " + sWeek[dNow.getDay()] + " ";
     sValue += GetLunarDay(yy, mm, dd);
     $("#pDate").html(sValue);
 }
