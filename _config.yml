@@ -1,6 +1,7 @@
 title: ROCEYS - 知人者智，自知者明。
 description: 东边山云网 | ROCEYS
 show_downloads: false
-google_analytics: UA-105700856-1
+#google_analytics: UA-105700856-1 #2019-01-08 13:59:02
+google_analytics:
 theme: jekyll-theme-hacker
 markdown: kramdown
