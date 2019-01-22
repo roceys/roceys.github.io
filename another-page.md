@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: clock
 ---
 
 ## Welcome to another page
