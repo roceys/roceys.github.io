@@ -1,1 +1,56 @@
-2019-03-06 21:21:45
+==================================================================
+https://keybase.io/roceys
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://roceys.cn
+  * I am roceys (https://keybase.io/roceys) on keybase.
+  * I have a public key ASD2HHf0OLEoGzRmR6Rg6223AE5hawiMwJIi0WfPFJKnvQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f61c77f438b1281b346647a460eb6db7004e616b088cc09222d167cf1492a7bd0a",
+      "host": "keybase.io",
+      "kid": "0120f61c77f438b1281b346647a460eb6db7004e616b088cc09222d167cf1492a7bd0a",
+      "uid": "83e2de05e0c0567a3ddaa7cb1bffb119",
+      "username": "roceys"
+    },
+    "merkle_root": {
+      "ctime": 1551879896,
+      "hash": "e470e30a731ea79e167962bbdf6a7162f70162253391b14e34018e2b5bebc98a761a474f496510ce3df81babc9596a2ca0747aa878db97065427e5dbcfe0354a",
+      "hash_meta": "0932f2642b067d1b66d37e0659a2c4fb6d2edaade2b91de83ea3a28d908445ee",
+      "seqno": 4887378
+    },
+    "service": {
+      "entropy": "Zn1fvm4yDKEOQIw0GXYdLPMG",
+      "hostname": "roceys.cn",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1551879956,
+  "expire_in": 504576000,
+  "prev": "1990173443cb1c9b8fd7d5979acb67c178dc341bd0c16992ee969166d3ca2869",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9hx39DixKBs0ZkekYOtttwBOYWsIjMCSItFnzxSSp70Kp3BheWxvYWTESpcCFMQgGZAXNEPLHJuP19WXmstnwXjcNBvQwWmS7paRZtPKKGnEIGJbdgZbKnJyQJS0sQ+Ni08rk0VnlDGrjv8fx4SosWouAgHCo3NpZ8RAj0ZPcyNRWLMurxTeKEXDaWdy4z0SeD7wHlog7QM023c5JoaLTGedGopeRRzNIsvKyLBuawrG7/V4BSEPpXq+CKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOmvadoLdzMo9fUmPAPXxVsa31DWrdZwJ9KotqqrNM4io3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/roceys
+
+==================================================================
