@@ -17,6 +17,7 @@
     <meta name="description" content="基于移动互联网智能灵活便捷的自由行解决方案 - Roceys东边山云网">
     <meta name="apple-mobile-web-app-title" content="基于移动互联网智能灵活便捷的自由行解决方案 - Roceys东边山云网">
     <title>{{ site.travel }}</title>
+    <base target="_blank" />
     <link href="/assets/images/favicon.ico" rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
@@ -44,6 +45,12 @@
             text-decoration: underline;
         }
 
+        td.city {
+            font-size: 20px;
+            font-weight: bold;
+            color: floralwhite;
+        }
+
     </style>
 </head>
 <body>
@@ -53,10 +60,10 @@
 <div class="txt" id="main">
     <table id="country">
         <tr>
-            <td colspan="5">塞尔维亚</td>
+            <td colspan="5" class="city"><a href="/assets/images/travel/塞尔维亚QQ图片20190828185738.png">塞尔维亚</a></td>
         </tr>
         <tr>
-            <td><a href="/assets/images/travel/紧急电话QQ图片20190828181503.png" target="_blank">紧急电话</a></td>
+            <td><a href="/assets/images/travel/紧急电话QQ图片20190828181503.png">紧急电话</a></td>
             <td>语言交流</td>
             <td>租车</td>
             <td>停车</td>
