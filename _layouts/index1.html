@@ -17,12 +17,12 @@ var _hmt = _hmt || [];
 	<meta name="description" content="Roceys">
     <meta name="apple-mobile-web-app-title" content="Roceys">
     <title>{{ site.title }}</title>
-    <link href="https://cdn.jsdelivr.net/gh/roceys/static@v1.0/img/favicon.ico" rel="icon" type="image/x-icon">
-    <link rel="stylesheet" href="{{ 'https://cdn.jsdelivr.net/gh/roceys/static@1.1/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-   <!-- <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">-->
+    <link href="{site.cdn}/img/favicon.ico" rel="icon" type="image/x-icon">
+  <!--  <link rel="stylesheet" href="{{ 'https://cdn.jsdelivr.net/gh/roceys/static@1.1/css/style.css?v=' | append: site.github.build_revision | relative_url }}">-->
+    <link rel="stylesheet" href="{{ '/assets/css/style.scss?v=' | append: site.github.build_revision | relative_url }}">
    <!-- <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>-->
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/roceys/static@v1.0/js/common.js" async></script>
+    <script src="{site.cdn}/js/common.js" async></script>
 </head>
 <body>
 <header>
