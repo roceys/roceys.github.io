@@ -137,5 +137,25 @@
     ga('send', 'pageview');
 </script>
 {% endif %}
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDVLvtaKsgHTzi8_Bj3_kgo9Ke4FWQbvHE",
+        authDomain: "roceys-travel.firebaseapp.com",
+        databaseURL: "https://roceys-travel.firebaseio.com",
+        projectId: "roceys-travel",
+        storageBucket: "",
+        messagingSenderId: "586174248168",
+        appId: "1:586174248168:web:4a3983fc52fef01a"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
 </body>
 </html>
