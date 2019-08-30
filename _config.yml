@@ -8,7 +8,7 @@ markdown: kramdown
 travel: 基于移动互联网智能灵活便捷的自由行解决方案 - ROCEYS东边山云网
 domain: https://roceys.cn
 timezone: Asia/Shanghai
-cdn: https://cdn.jsdelivr.net/gh/roceys/static@1.1
+cdn: https://cdn.jsdelivr.net/gh/roceys/static@1.2
 
 
 #pic
