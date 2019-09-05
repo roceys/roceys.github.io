@@ -1,5 +1,5 @@
 ---
-layout: fligth
-permalink: travel/fligth
+layout: flight
+permalink: travel/flight
 published: true
 ---

@@ -3,60 +3,8 @@
   <component name="ChangeListManager">
     <list id="6169e1a8-f808-4abd-9b6d-5d2005bb0041" name="unpush" comment="" />
     <list default="true" id="d5b4ce14-a891-4f2b-a542-4f40da79ab94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/carparks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/ecall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/finance.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/flight.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/food.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/gas.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/history.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/hotel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/language.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/mymaps.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/navigation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/number.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/parking.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/parkingticket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/pts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/readylist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/selfdriving.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/serbiabos.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/serbiazone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/ticket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/ticket2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/ticketpos.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/trafficrules.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/travel-bak.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/weather.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/wifisim.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carparks.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ecall.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/finance.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flight.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/food.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gas.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/history.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hotel.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymaps.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/navigation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parking.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parkingticket.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pts.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readylist.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selfdriving.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serbia.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serbiazone.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ticket.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ticket2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ticketpos.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trafficrules.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wifisim.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/travel.html" afterPath="$PROJECT_DIR$/_layouts/travel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flight.md" afterPath="$PROJECT_DIR$/flight.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,12 +16,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="travel.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/travel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flight.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/flight.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="29" column="85" lean-forward="false" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flight.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flight.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="23">
+                <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finance.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/finance.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="46">
+                <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="25" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -105,7 +105,6 @@
         <option value="$PROJECT_DIR$/_layouts/selfdriving.html" />
         <option value="$PROJECT_DIR$/serbia.md" />
         <option value="$PROJECT_DIR$/_layouts/serbiabos.html" />
-        <option value="$PROJECT_DIR$/flight.md" />
         <option value="$PROJECT_DIR$/_layouts/flight.html" />
         <option value="$PROJECT_DIR$/carparks.md" />
         <option value="$PROJECT_DIR$/_layouts/carparks.html" />
@@ -150,8 +149,9 @@
         <option value="$PROJECT_DIR$/_layouts/number.html" />
         <option value="$PROJECT_DIR$/readylist.md" />
         <option value="$PROJECT_DIR$/_layouts/readylist.html" />
-        <option value="$PROJECT_DIR$/_layouts/travel.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/flight.md" />
+        <option value="$PROJECT_DIR$/_layouts/travel.html" />
       </list>
     </option>
   </component>
@@ -332,7 +332,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567119153068</updated>
       <workItem from="1567119156746" duration="4965000" />
-      <workItem from="1567667116518" duration="9638000" />
+      <workItem from="1567667116518" duration="10000000" />
     </task>
     <task id="LOCAL-00001" summary="static update">
       <created>1567119993763</created>
@@ -443,7 +443,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14603000" />
+    <option name="totallyTimeSpent" value="14965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1860" height="1098" extended-state="6" />
@@ -524,25 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flight.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="46">
-            <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="24" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/flight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="85" lean-forward="false" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
           <folding />
         </state>
       </provider>
@@ -685,17 +666,6 @@
         <state relative-caret-position="552">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/finance.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="46">
-            <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -946,21 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/travel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="104" column="87" lean-forward="true" selection-start-line="104" selection-start-column="87" selection-end-line="104" selection-end-column="87" />
-          <folding>
-            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1567676767841" expanded="false" signature="4804:4810" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/readylist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -972,8 +927,52 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/flight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="85" lean-forward="false" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flight.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="23">
+            <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finance.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="25" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/travel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
