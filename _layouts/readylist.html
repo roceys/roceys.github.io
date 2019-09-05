@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta name="description" content="基于移动互联网智能灵活便捷的自由行解决方案 - Roceys东边山云网">
+    <meta name="apple-mobile-web-app-title" content="基于移动互联网智能灵活便捷的自由行解决方案 - Roceys东边山云网">
+    <meta property="og:type" content="h5"/>
+    <meta property="og:title" content="基于移动互联网LBS智能灵活便捷的自由行解决方案 - Roceys东边山云网">
+    <meta property="og:description" content="塞尔维亚&波黑全网最佳攻略 附景点餐饮酒店GPS精确调节方法">
+    <title>{{ site.travel }}</title>
+    <base target="_blank"/>
+    <link href="{{site.cdn}}/img/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?1aebf6476a0e087be3a2e9d1b8045d64";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</head>
+<body>
+<div class="txt" id="main"><img src="{{site.cdn}}/img/travel/旅行物品清单水印版微信图片_20190904100318.png" /></div>
+<footer style="height: auto;">
+    <br><br>
+    <p class="copyright">&copy; 2010-{{ site.time | date: '%Y' }}
+        ROCEYS & 東邊山雲網
+    </p>
+    <br>
+</footer>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=66155812" charset="UTF-8"></script>
+{% if site.google_analytics %}
+<script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    // ga('set', 'forceSSL', true);
+    ga('send', 'pageview');
+</script>
+{% endif %}
+</body>
+</html>

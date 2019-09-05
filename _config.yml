@@ -7,8 +7,9 @@ google_analytics:
 theme: jekyll-theme-hacker
 markdown: kramdown
 domain: https://roceys.cn
+#domain: http://127.0.0.1:4000
 timezone: Asia/Shanghai
-cdn: https://cdn.jsdelivr.net/gh/roceys/static@2.3
+cdn: https://cdn.jsdelivr.net/gh/roceys/static@2.4
 
 #pic
 gavatar:
