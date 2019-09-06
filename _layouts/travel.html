@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-title" content="基于移动互联网智能灵活便捷的自由行解决方案 - Roceys东边山云网">
     <meta property="og:type" content="h5"/>
     <meta property="og:title" content="基于移动互联网LBS智能灵活便捷的自由行解决方案 - Roceys东边山云网">
-    <meta property="og:description" content="塞尔维亚&波黑全网最佳攻略 附景点餐饮酒店GPS精确调节方法">
+    <meta property="og:description" content="塞尔维亚&波黑全网最佳自由行攻略 自驾停车攻略 高精度GPS经纬度地点 景点网红餐厅介绍">
     <!-- <meta property="og:image" content="http://roceys.cn/assets/images/favicon.ico">
      <meta property="og:url" content="http://roceys.cn/travel">-->
     <title>{{ site.travel }}</title>
@@ -24,8 +24,8 @@
             font-size: 25px;
         }
 
-        table#country {
-            width: 500px;
+        .ftab {
+            width: 550px;
             margin: auto;
         }
 
@@ -45,6 +45,38 @@
             text-decoration: none;
         }
 
+        #foottab a {
+            color: #aa759f;
+        }
+
+        #foottab a:link {
+            color: #aa759f;
+        }
+
+        #foottab a:visited {
+            color: #aa759f;
+        }
+
+        #foottab a:hover {
+            color: #aa759f;
+        }
+
+        .city a {
+            color: cornsilk;
+        }
+
+        .city a:link {
+            color: cornsilk;
+        }
+
+        .city a:visited {
+            color: cornsilk;
+        }
+
+        .city a:hover {
+            color: cornsilk;
+        }
+
         td.city {
             font-size: 20px;
             font-weight: bold;
@@ -52,7 +84,7 @@
         }
 
         footer, header {
-            min-width: 500px;
+            min-width: 550px;
         }
 
     </style>
@@ -72,7 +104,7 @@
     <div class="container">基于移动互联网LBS智能灵活便捷的自由行解决方案</div>
 </header>
 <div class="txt" id="main">
-    <table id="country">
+    <table id="country" class="ftab">
         <tr>
             <td colspan="5" class="city">
                 <a href="{{site.domain}}/travel/serbiabos">塞尔维亚</a> & <a href="{{site.domain}}/travel/serbiabos">波黑</a></td>
@@ -112,23 +144,46 @@
             <td><a href="{{site.domain}}/travel/toptic">注意事项</a></td>
             <td colspan="4"><a href="{{site.domain}}/travel/mymaps">GPS高精度地图 / Google MyMaps（发邮箱共享）</a></td>
         </tr>
+        <tr>
+            <td colspan="5" class="city"></td>
+        </tr>
+        <tr>
+            <td colspan="5" class="city"></td>
+        </tr>
+        <tr>
+            <td colspan="5" class="city"></td>
+        </tr>
+        <tr>
+            <td colspan="5" class="city">越南 & 泰国 & 老挝 & 柬埔寨</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="city"></td>
+        </tr>
+        <tr>
+            <td colspan="5" class="city"></td>
+        </tr>
+        <tr>
+            <td colspan="5" class="city"></td>
+        </tr>
+        <tr>
+            <td colspan="5" class="city">美国 & 加拿大</td>
+        </tr>
     </table>
     <br>
 </div>
 <footer style="height: auto;">
     <div style="text-align: center;">
-        <table style="margin: auto;">
+        <table class="ftab" id="foottab">
             <tr>
-                <td style="text-align: right;"><a href="{{site.domain}}/travel/number">全球数字分位常识</a>
+                <td><a href="{{site.domain}}/travel/number">全球数字分位常识</a>
                 </td>
-                <td style="text-align: left;"><a href="{{site.domain}}/travel/readylist">旅行准备物品清单</a></td>
+                <td><a href="{{site.domain}}/travel/readylist">旅行准备物品清单</a></td>
+                <td><a href="{{site.domain}}/travel/creditcard">信用卡防盗刷指南</a></td>
             </tr>
         </table>
     </div>
-    <br><br>
+    <br>
     <p class="copyright">&copy; 2010-{{ site.time | date: '%Y' }}
-        <!--   <script>var d = new Date();
-           document.write(d.getFullYear());</script>-->
         ROCEYS & 東邊山雲網
     </p>
     <br>
