@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list id="6169e1a8-f808-4abd-9b6d-5d2005bb0041" name="unpush" comment="" />
     <list default="true" id="d5b4ce14-a891-4f2b-a542-4f40da79ab94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/mapmp4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapmp4.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll-metadata" afterPath="$PROJECT_DIR$/.jekyll-metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/travel.html" afterPath="$PROJECT_DIR$/_layouts/travel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/mapmp4.html" afterPath="$PROJECT_DIR$/_layouts/mapmp4.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +31,7 @@
       <file leaf-file-name="mapmp4.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/mapmp4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
+            <state relative-caret-position="575">
               <caret line="30" column="118" lean-forward="false" selection-start-line="30" selection-start-column="118" selection-end-line="30" selection-end-column="118" />
               <folding />
             </state>
@@ -389,7 +384,7 @@
       <workItem from="1567119156746" duration="4965000" />
       <workItem from="1567667116518" duration="12704000" />
       <workItem from="1567743790104" duration="4652000" />
-      <workItem from="1567763759236" duration="715000" />
+      <workItem from="1567763759236" duration="1568000" />
     </task>
     <task id="LOCAL-00001" summary="static update">
       <created>1567119993763</created>
@@ -500,7 +495,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23036000" />
+    <option name="totallyTimeSpent" value="23889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1860" height="1098" extended-state="6" />
@@ -946,7 +941,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/mapmp4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
+        <state relative-caret-position="575">
           <caret line="30" column="118" lean-forward="false" selection-start-line="30" selection-start-column="118" selection-end-line="30" selection-end-column="118" />
           <folding />
         </state>
