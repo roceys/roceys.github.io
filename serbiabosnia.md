@@ -1,6 +1,7 @@
 ---
-layout: serbiabosnia
+layout: default
 permalink: travel/serbiabosnia
+title: 塞尔维亚波黑景点地标纪念碑大全
 ---
 #塞尔维亚波黑景点地标纪念碑大全
 
