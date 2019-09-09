@@ -9,6 +9,8 @@ markdown: kramdown
 domain: https://roceys.cn
 #domain: http://127.0.0.1:4000
 timezone: Asia/Shanghai
+paginate: 5
+baseurl: ""
 cdn: https://cdn.jsdelivr.net/gh/roceys/static@2.6
 #baseurl: /blog
 google_gajs: https://cdn.jsdelivr.net/npm/google-analytics-js@0.1.2/gajs.min.js
@@ -21,3 +23,5 @@ logo:
 # Markdown 处理器
 kramdown:
   input: GFM
+
+plugins: [jekyll-paginate]

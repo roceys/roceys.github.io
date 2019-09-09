@@ -3,43 +3,12 @@
   <component name="ChangeListManager">
     <list id="6169e1a8-f808-4abd-9b6d-5d2005bb0041" name="unpush" comment="" />
     <list default="true" id="d5b4ce14-a891-4f2b-a542-4f40da79ab94" name="Default" comment="一个大括号引发的血案">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/blog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2019-9-9-test.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/carparks.html" afterPath="$PROJECT_DIR$/_layouts/carparks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/creditcard.html" afterPath="$PROJECT_DIR$/_layouts/creditcard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/ecall.html" afterPath="$PROJECT_DIR$/_layouts/ecall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/finance.html" afterPath="$PROJECT_DIR$/_layouts/finance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/flight.html" afterPath="$PROJECT_DIR$/_layouts/flight.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/food.html" afterPath="$PROJECT_DIR$/_layouts/food.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/gas.html" afterPath="$PROJECT_DIR$/_layouts/gas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/history.html" afterPath="$PROJECT_DIR$/_layouts/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/hotel.html" afterPath="$PROJECT_DIR$/_layouts/hotel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/index1.html" afterPath="$PROJECT_DIR$/_layouts/index1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/language.html" afterPath="$PROJECT_DIR$/_layouts/language.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/mapmp4.html" afterPath="$PROJECT_DIR$/_layouts/mapmp4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/mymaps.html" afterPath="$PROJECT_DIR$/_layouts/mymaps.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/navigation.html" afterPath="$PROJECT_DIR$/_layouts/navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/number.html" afterPath="$PROJECT_DIR$/_layouts/number.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/parking.html" afterPath="$PROJECT_DIR$/_layouts/parking.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/parkingticket.html" afterPath="$PROJECT_DIR$/_layouts/parkingticket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/pts.html" afterPath="$PROJECT_DIR$/_layouts/pts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/readylist.html" afterPath="$PROJECT_DIR$/_layouts/readylist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/selfdriving.html" afterPath="$PROJECT_DIR$/_layouts/selfdriving.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/serbiabos.html" afterPath="$PROJECT_DIR$/_layouts/serbiabos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/serbiazone.html" afterPath="$PROJECT_DIR$/_layouts/serbiazone.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/ticket.html" afterPath="$PROJECT_DIR$/_layouts/ticket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/ticket2.html" afterPath="$PROJECT_DIR$/_layouts/ticket2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/ticketpos.html" afterPath="$PROJECT_DIR$/_layouts/ticketpos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/toptic.html" afterPath="$PROJECT_DIR$/_layouts/toptic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/trafficrules.html" afterPath="$PROJECT_DIR$/_layouts/trafficrules.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/travel.html" afterPath="$PROJECT_DIR$/_layouts/travel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/travel2.html" afterPath="$PROJECT_DIR$/_layouts/travel2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/weather.html" afterPath="$PROJECT_DIR$/_layouts/weather.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/wifisim.html" afterPath="$PROJECT_DIR$/_layouts/wifisim.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga.js" afterPath="$PROJECT_DIR$/ga.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.md" afterPath="$PROJECT_DIR$/blog.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/blog.html" afterPath="$PROJECT_DIR$/_layouts/indexbak.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,89 +36,68 @@
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+            <state relative-caret-position="317">
+              <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ga.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ga.js">
+      <file leaf-file-name="indexbak.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/indexbak.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="261">
+              <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+              <folding>
+                <element signature="e#2535#2541#0" expanded="true" />
+                <element signature="e#2753#2759#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clock.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/clock.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-580">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flight.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/flight.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="57" column="7" lean-forward="false" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
-              <folding />
+      <file leaf-file-name="2019-9-9-test.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-9-9-test.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="69">
+                <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="travel2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/travel2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="149" column="36" lean-forward="false" selection-start-line="149" selection-start-column="36" selection-end-line="149" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="carparks.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/carparks.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="creditcard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/creditcard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ecall.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/ecall.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finance.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/finance.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-              <folding />
+      <file leaf-file-name="blog.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="161">
+                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -183,9 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/number.md" />
-        <option value="$PROJECT_DIR$/readylist.md" />
-        <option value="$PROJECT_DIR$/flight.md" />
         <option value="$PROJECT_DIR$/travel2.md" />
         <option value="$PROJECT_DIR$/toptic.md" />
         <option value="$PROJECT_DIR$/creditcard.md" />
@@ -223,9 +168,6 @@
         <option value="$PROJECT_DIR$/mapmp4.md" />
         <option value="$PROJECT_DIR$/_layouts/mapmp4.html" />
         <option value="$PROJECT_DIR$/serbiabosnia.md" />
-        <option value="$PROJECT_DIR$/blog.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_layouts/blog.html" />
         <option value="$PROJECT_DIR$/_layouts/travel.html" />
         <option value="$PROJECT_DIR$/_layouts/carparks.html" />
         <option value="$PROJECT_DIR$/_layouts/creditcard.html" />
@@ -234,6 +176,12 @@
         <option value="$PROJECT_DIR$/_layouts/flight.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/ga.js" />
+        <option value="$PROJECT_DIR$/_layouts/blog.html" />
+        <option value="$PROJECT_DIR$/_posts/2019-9-9-test.md" />
+        <option value="$PROJECT_DIR$/_layouts/index.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/blog.md" />
       </list>
     </option>
   </component>
@@ -278,6 +226,11 @@
               <item name="roceys.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="roceys.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="roceys.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roceys.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -297,8 +250,8 @@
       <recent name="F:\dev\gitblog\roceys.github.io\_data\travel" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\dev\gitblog\roceys.github.io\_layouts" />
       <recent name="F:\dev\gitblog\roceys.github.io" />
+      <recent name="F:\dev\gitblog\roceys.github.io\_layouts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -417,7 +370,7 @@
       <workItem from="1567763759236" duration="1763000" />
       <workItem from="1567813394219" duration="1708000" />
       <workItem from="1567852982200" duration="1476000" />
-      <workItem from="1567995260054" duration="5269000" />
+      <workItem from="1567995260054" duration="8069000" />
     </task>
     <task id="LOCAL-00001" summary="static update">
       <created>1567119993763</created>
@@ -549,7 +502,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32537000" />
+    <option name="totallyTimeSpent" value="35337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1860" height="1098" extended-state="6" />
@@ -600,27 +553,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_site/travel/finance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/travel/flight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/travel/food.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/travel/gas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -889,33 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="138">
-            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/travel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -983,19 +888,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+    <entry file="file://$PROJECT_DIR$/ga.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        <state relative-caret-position="92">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ga.js">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="317">
+          <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/indexbak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="60" column="126" lean-forward="false" selection-start-line="60" selection-start-column="126" selection-end-line="60" selection-end-column="126" />
+          <folding>
+            <element signature="e#2535#2541#0" expanded="true" />
+            <element signature="e#2753#2759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-9-9-test.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="69">
+            <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/indexbak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+          <folding>
+            <element signature="e#2535#2541#0" expanded="true" />
+            <element signature="e#2753#2759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
