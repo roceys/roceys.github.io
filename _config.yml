@@ -1,19 +1,23 @@
+encoding : utf-8
 title: ROCEYS - 知人者智，自知者明。
 travel: 基于移动互联网LBS智能灵活便捷的自由行解决方案 - ROCEYS东边山云网
 description: 东边山云网 | ROCEYS
 show_downloads: false
 google_analytics: UA-105700856-1 #2019-01-08 13:59:02
-google_analytics:
 theme: jekyll-theme-hacker
 markdown: kramdown
 domain: https://roceys.cn
 #domain: http://127.0.0.1:4000
 timezone: Asia/Shanghai
 cdn: https://cdn.jsdelivr.net/gh/roceys/static@2.6
+#baseurl: /blog
+google_gajs: https://cdn.jsdelivr.net/npm/google-analytics-js@0.1.2/gajs.min.js
 
 #pic
 gavatar:
 favicon: assets/images/favicon1.ico
 logo:
 
-
+# Markdown 处理器
+kramdown:
+  input: GFM
