@@ -58,14 +58,9 @@
             repo: '{{site.gitalk.repo}}',
             owner: '{{site.gitalk.owner}}',
             admin: ['{{site.gitalk.admin}}'],
-            distractionFreeMode: {
-        {
-            site.gitalk.distractionFreeMode
-        }
-        },
-        id: window.location.pathname,
-        })
-        ;
+            distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+            id: window.location.pathname,
+        });
         gitalk.render('gitalk-container');
     </script>
     {% endif %}
