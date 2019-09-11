@@ -3,10 +3,41 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <base target="_blank"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link href="{{site.cdn}}/img/favicon.ico" rel="icon" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
+    <style>
+        a {
+            text-decoration: none;
+            target: _blank;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        div.container {
+            padding: 10px;
+        }
+
+        div.container h1, h2, h3, h4, h5 {
+            margin: 0;
+        }
+
+        .post-meta {
+            color: #666666;
+        }
+    </style>
     <script>
         var _hmt = _hmt || [];
         (function () {
@@ -16,18 +47,6 @@
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <style>
-        #main_content h1, h2, h3, h4, h5 {
-            margin: 8px 0 8px;
-        }
-
-        #subtitle {
-            margin: 0 auto;
-            width: 90%;
-            max-width: 1000px;
-            color: orangered;
-        }
-    </style>
     {% seo %}
 </head>
 
@@ -36,45 +55,49 @@
 <header>
     <div class="container">
         <h1 id="headTitle">{{ site.blog_title }}</h1>
-        <h2>{{page.title}}</h2>
+        <h2></h2>
     </div>
 </header>
 
-<h1 id="subtitle">{{page.subtitle}}</h1>
+{% for post in site.posts %}
 <div class="container">
-    <section id="main_content">
-        {{ content }}
-    </section>
-    <!--Gitalk  -->
-    {% if site.gitalk.enable %}
-    <!-- 引入Gitalk评论插件  -->
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-    <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-    <div id="gitalk-container"></div>
-    <script type="text/javascript">
-        var gitalk = new Gitalk({
-            clientID: '{{site.gitalk.clientID}}',
-            clientSecret: '{{site.gitalk.clientSecret}}',
-            repo: '{{site.gitalk.repo}}',
-            owner: '{{site.gitalk.owner}}',
-            admin: ['{{site.gitalk.admin}}'],
-            distractionFreeMode: {
-        {
-            site.gitalk.distractionFreeMode
-        }
-        },
-        id: window.location.pathname,
-        })
-        ;
-        gitalk.render('gitalk-container');
-    </script>
-    {% endif %}
-    <!-- Gitalk end -->
-</div>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h5 class="post-subtitle">
+            {{ post.subtitle }}
+        </h5>
+        {% endif %}
+    </a>
+    <div class="post-content-preview">
+        {{ post.content | strip_html | truncate:200 }}
+    </div>
 
-<div class="footer">
-    <p class="copyright">&copy;2010-{{site.time | date:'%Y'}} ROCEYS & 東邊山雲網 </p><br><br>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date:
+        "%Y/%m/%d" }}
+    </p>
 </div>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
+
 {% if site.google_analytics %}
 <script type="text/javascript">
     (function (i, s, o, g, r, a, m) {
