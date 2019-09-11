@@ -31,7 +31,7 @@ gitalk:
   enable: true
   clientID: 5bb60bc3e2a81875f1d6
   clientSecret: 4eeafbdb7d687b144207dbe41243b845ba9e9a54
-  repo: https://github.com/roceys/gitalk
+  repo: gitalk
   owner: ROCEYS
   admin: ROCEYS
   distractionFreeMode: true
