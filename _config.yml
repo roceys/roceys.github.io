@@ -12,9 +12,10 @@ domain: https://roceys.cn
 timezone: Asia/Shanghai
 paginate: 5
 baseurl: ""
-cdn: https://cdn.jsdelivr.net/gh/roceys/static@2.7
-#baseurl: /blog
 google_gajs: https://cdn.jsdelivr.net/npm/google-analytics-js@0.1.2/gajs.min.js
+staticcdn: https://cdn.jsdelivr.net/gh/roceys/static@2.7
+cdn: https://git.imweb.io/roceys/static/raw/00c2e3701f90e4e3a41b10e0a545155b59601449
+#cdn: https://gitee.com/ROCEYS-CN/static/raw/master
 
 #pic
 gavatar:
