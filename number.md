@@ -1,5 +1,6 @@
 ---
-layout: number
+layout: travelimg
+travelimg: 全球数字货币分位QQ图片20190828191505.png
 permalink: travel/number
 published: true
 title: 旅游 旅行 跟团境外游，国外货币金额数字怎么认点号/句号、分号的小数点

@@ -1,18 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.lang | default: " en-US" }}">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-	<meta name="description" content="Roceys東邊山雲網">
-    <meta name="apple-mobile-web-app-title" content="Roceys東邊山雲網">
-    <title>{{ site.title }}</title>
-    <link href="{{site.cdn}}/img/favicon.ico" rel="icon" type="image/x-icon">
-  <!--  <link rel="stylesheet" href="{{ 'https://cdn.jsdelivr.net/gh/roceys/static@1.1/css/style.css?v=' | append: site.github.build_revision | relative_url }}">-->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-   <!-- <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>-->
-    <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
+    {% include head.html %}
     <script src="{{site.staticcdn}}/js/common.js" async></script>
 </head>
 <body>

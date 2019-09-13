@@ -1,5 +1,6 @@
 ---
-layout: creditcard
+layout: travelimg
+travelimg: 信用卡防盗刷提示水印版微信图片_20190906121201.png
 permalink: travel/creditcard
 published: true
 title: 旅游 旅行 跟团境外旅游信用卡防盗刷指南  

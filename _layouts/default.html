@@ -1,21 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: " en-US" }}">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link href="{{site.cdn}}/img/favicon.ico" rel="icon" type="image/x-icon">
-    <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?1aebf6476a0e087be3a2e9d1b8045d64";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+    {% include head.html %}
     <style>
         #main_content h1, h2, h3, h4, h5 {
             margin: 8px 0 8px;
@@ -28,11 +14,9 @@
             color: orangered;
         }
     </style>
-    {% seo %}
 </head>
 
 <body>
-
 <header>
     <div class="container">
         <h1 id="headTitle">{{ site.blog_title }}</h1>
@@ -70,23 +54,6 @@
 <div class="footer">
     <p class="copyright">&copy;2010-{{site.time | date:'%Y'}} ROCEYS & 東邊山雲網 </p><br><br>
 </div>
-<script type="text/javascript" src="https://tajs.qq.com/stats?sId=66155812" charset="UTF-8"></script>
-{% if site.google_analytics %}
-<script type="text/javascript">
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '{{site.google_gajs}}', 'ga');
-    ga('create', '{{ site.google_analytics }}', 'auto');
-    ga('send', 'pageview');
-</script>
-{% endif %}
+{% include siteanalytics.html %}
 </body>
 </html>
