@@ -8,6 +8,15 @@ description: 塞尔维亚波黑旅行指南 贝尔格莱德自驾 停车收费 �
 permalink: /:categories/:year/:month/:day/:title
 author: ROCEYS
 date: 2019/08/22
+tags:
+    - serbia
+    - bosnia
+    - 塞尔维亚
+    - 波黑
+    - 自由行
+    - 旅行
+    - 自驾
+    - 一带一路
 ---
 ## 塞尔维亚Serbia & 波黑Bosnia
 
