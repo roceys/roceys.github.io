@@ -17,7 +17,7 @@ paginate: 5
 baseurl: ""
 google_gajs: https://cdn.jsdelivr.net/npm/google-analytics-js@0.1.2/gajs.min.js
 staticcdn: https://cdn.jsdelivr.net/gh/roceys/static@2.7
-cdn: https://git.imweb.io/roceys/static/raw/1fbf76bc4ed8a75a9d85d74c98d0759b85b9e6b6
+cdn: https://git.imweb.io/roceys/static/raw/master
 #cdn: https://gitee.com/ROCEYS-CN/static/raw/master
 
 #pic
