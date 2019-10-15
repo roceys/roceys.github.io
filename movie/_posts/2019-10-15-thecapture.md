@@ -42,7 +42,7 @@ IMDb链接: [tt8201186](http://www.imdb.com/title/tt8201186)
 
 ## 剧情介绍 
 
-When soldier Shaun Emery’s (Turner) conviction for a murder in Afghanistan is overturned because of flawed video evidence, he returns to life as a free man with his young daughter. But when damning CCTV footage from a night out in London comes to light, Shaun’s life takes a shocking turn and he must soon fight for his freedom once again. 
+　　When soldier Shaun Emery’s (Turner) conviction for a murder in Afghanistan is overturned because of flawed video evidence, he returns to life as a free man with his young daughter. But when damning CCTV footage from a night out in London comes to light, Shaun’s life takes a shocking turn and he must soon fight for his freedom once again. 
 
 　　With newly promoted DI Rachel Carey (Grainger) drafted in to investigate Shaun’s case, she quickly learns that the truth can sometimes be a matter of perspective. Should she trust Shaun Emery? 
 
