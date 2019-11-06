@@ -1,13 +1,13 @@
 ---
 layout: default
-title: 山东费县《消失的夫妻》刑警笔录（部分）
+title: 山东费县《消失的夫妻》刑警笔录
 subtitle: CCTV12《天网》20130717 消失的夫妻
-apptitle: 山东费县《消失的夫妻》刑警笔录（部分）
+apptitle: 山东费县《消失的夫妻》刑警笔录
 category: book
-description: 9大领域书单推荐 让你做一个独立思考的人
+description:5.15山东临沂费县消失的夫妻案件部分笔录，案发于2013年5月14-15日，四名犯罪份子年龄最大的23岁，其中1人为未成年。犯案人员于2016年6月22号被执行死刑（3个死刑，另一个无期徒刑）。CCTV12《天网》20130717 消失的夫妻。
 permalink: /:categories/:year/:month/:day/:title
 author: ROCEYS
-date: 2019/09/15
+date: 2019/11/07
 tags:
     - Book
 ---
