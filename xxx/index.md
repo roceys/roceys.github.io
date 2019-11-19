@@ -2,7 +2,7 @@
 layout: blog
 published: true
 title: 老司机档案馆
-apptitle:Driver Old Archives of ROCEYS 
+apptitle: Driver Old Archives of ROCEYS 
 description: Driver Old Archives of ROCEYS 
 ---
 {% for post in site.posts %}
