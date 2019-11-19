@@ -1,16 +1,16 @@
 ---
 layout: default
-title: 解决Ngix疑似端口被占用无法启动问题
+title: 解决Nginx疑似端口被占用无法启动问题
 subtitle: 10013 An attempt was made to access a socket in a way forbidden by its access permissions
 apptitle: 10013 An attempt was made to access a socket in a way forbidden by its access permissions
 category: tech
-description: 解决Ngix疑似端口被占用无法启动问题 Hyper-V共享网络 防火墙正常 Fix Ngix error 10013 An attempt was made to access a socket in a way forbidden by its access permissions
+description: 解决Nginx疑似端口被占用无法启动问题 Hyper-V共享网络 防火墙正常 Fix Nginx error 10013 An attempt was made to access a socket in a way forbidden by its access permissions
 permalink: /:categories/:year/:month/:day/:title
 author: ROCEYS
 date: 2019/11/19
 tags:
     - tech
-    - ngix
+    - nginx
     - rtmp
 ---
 
@@ -47,7 +47,7 @@ tags:
 
 <br>
 
-查看了并没运行ngix.exe进程及相关端口号也没被占用。
+查看了并没运行nginx.exe进程及相关端口号也没被占用。
 
 <br>
 
