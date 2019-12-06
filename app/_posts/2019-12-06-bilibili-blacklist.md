@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 哔哩哔哩巨婴用户名单（第一期）持续更新 -【巨婴网络】实验室倾情打造
+title: 哔哩哔哩巨婴用户名单（第一期）持续更新 -【巨婴网络】实验室荣誉出品
 subtitle: Bilibili（B站）巨婴名单（第一期）20191206
 apptitle: Bilibili（B站）巨婴名单
 category: app
