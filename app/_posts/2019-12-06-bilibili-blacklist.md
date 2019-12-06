@@ -85,6 +85,7 @@ tags:
 |  67  |  [161062245](https://space.bilibili.com/161062245)  |  chikuyo  |  严重  |
 |  68  |  [24831436](https://space.bilibili.com/24831436)  |  爱吃番茄味的羡羡  |  严重  |
 |  69  |  [6467777](https://space.bilibili.com/6467777)  |  珍珠奶绿七分甜去冰  |  中等  |
+|  70  |  [1491555](https://space.bilibili.com/1491555)  |  法兰拉茶  |  中等  |
 
 
 
