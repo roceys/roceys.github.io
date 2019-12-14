@@ -161,6 +161,7 @@ tags:
 |  143  |  [159097052](https://space.bilibili.com/159097052)  |  迷失的小野猫  |  严重  |
 |  144  |  [259840811](https://space.bilibili.com/259840811)  |  柏拉图和鱼  |  严重  |
 |  145  |  [25033948](https://space.bilibili.com/25033948)  |  决斗呵呵  |  严重  |
+|  146  |  [404323378](https://space.bilibili.com/404323378)  |  捕获一只嵩鼠  |  中等  |
 
 
 
