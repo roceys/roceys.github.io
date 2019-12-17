@@ -30,7 +30,7 @@ Android微信语音文件保存路径为：`Tecent\MicroMsg\b666aabc6666666666cc
 
 ## 微信PC客户端语音导出
 
-使用**Super-Wechat**集成最高支持版本微信 `WeChat_2.6.7.40`，可以自动导出备份语音，群聊文件名为“**用户ID**@chatroom_消息ID”、私聊文件名为“**wxid_微信ID_消息ID**”。
+使用**Super-Wechat**集成最高支持版本微信 `WeChat_2.6.7.40`，可以自动导出备份语音，群聊文件名为“**群组ID**@chatroom_消息ID”、私聊文件名为“**wxid_微信ID_消息ID**”。
 
 ## silk格式语音转换mp3
 
