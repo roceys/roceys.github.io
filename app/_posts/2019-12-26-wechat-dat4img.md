@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 自动破解转换微信dat后缀文件为图片脚本
+title: 自动破解转换微信加密.dat后缀文件为图片脚本
 subtitle: Automatically convert WeChat encrypted pictures
-apptitle: 自动破解转换微信dat后缀文件为图片脚本
+apptitle: 自动破解转换微信加密.dat后缀文件为图片脚本
 category: app
 description: 自动破解转换微信PC客户端缓存dat后缀文件为图片脚本软件，一键批量解密微信加密图片.dat格式文件，自动判断微信PC客户端加密文件dat后缀格式图片16进制文件头，自动计算图片文件解密偏移量并转换为可用的图片文件（jpg|png|gif），可指定具体微信图片缓存本地的日期时间范围进行转换图片提取。JPG文件头16进制为FFD8FF，PNG文件头16进制为89504E47，GIF文件头16进制为47494638。ROCEYS.CN全栈CEO提供支持。2019年12月26日 11:45:22 Automatically crack and convert WeChat PC client cache dat suffix file into picture script software, one-click batch decryption of WeChat encrypted picture .dat format file, automatically determine WeChat PC client encrypted file dat suffix format picture hex file header, automatically calculate picture file Decrypt the offset and convert it into a usable image file (jpg | png | gif). You can specify the specific date and time range of the specific WeChat image cache for conversion image extraction. The hexadecimal of the JPG file header is FFD8FF, the hexadecimal of the PNG file header is 89504E47, and the hexadecimal of the GIF file header is 47494638.
 permalink: /:categories/:year/:month/:day/:title
