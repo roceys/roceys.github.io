@@ -4,7 +4,7 @@ title: HDD机械硬盘故障代码0x80070032
 subtitle: seagate HDD error code 0x80070032 fixed
 apptitle: HDD机械硬盘故障代码0x80070032
 category: tech
-description: seagate HDD error code 0x80070032 fixed。复制拷贝、剪切移动文件报错：一个意外错误使你无法移动该文件。如果你继续收到此错误，可以使用错误代码来搜索有关此问题的帮助。错误0x80070032：不支持该请求。项目类型：MP4-MPEG-4电影文件大小：241MB MPA 时长：00：12：01 为所有当前项目执行此操作（A）重试（R）跳过（S）取消。ROCEYS全栈CEO 2019年12月16日 11:00:18
+description: seagate HDD error code 0x80070032 fixed。win10复制拷贝、剪切移动文件报错：一个意外错误使你无法移动该文件。如果你继续收到此错误，可以使用错误代码来搜索有关此问题的帮助。错误0x80070032：不支持该请求。项目类型：MP4-MPEG-4电影文件大小：241MB MPA 时长：00：12：01 为所有当前项目执行此操作（A）重试（R）跳过（S）取消。ROCEYS全栈CEO 2019年12月16日 11:00:18
 permalink: /:categories/:year/:month/:day/:title
 author: ROCEYS
 date: 2019/12/16
