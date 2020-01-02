@@ -301,7 +301,6 @@
 			function playEndedHandler(){ 
 			myAudio.src = arr.pop(); 
 			myAudio.play(); 
-			console.log(arr.length); 
 			!arr.length && myAudio.removeEventListener('ended',playEndedHandler,false);//只有一个元素时解除绑定 
 			} 
 			} 
