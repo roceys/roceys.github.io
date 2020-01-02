@@ -44,8 +44,13 @@
 	
 </head>
 
-<body>
+<body onload="playMusic()">
 	<div id="audioBox" style="display:none"></div>
+	<!--
+    <audio autoplay="autoplay" loop="loop">
+        <source src="{{site.cdn}}/media/bgm2.mp3" type="audio/mpeg">
+	</audio>
+	-->
     <div id="main">
         <div id="error">本页面采用HTML5设计，目前您的浏览器无法显示，请换成谷歌(<a href="https://www.google.com/chrome">Chrome</a>)或者火狐(<a href="http://firefox.com/download/">Firefox</a>)浏览器访问。</div>
         <div id="wrap">
@@ -286,8 +291,6 @@
     <script type='text/javascript' color='102,185,255' zIndex='-10' opacity='50' count='99' src="{{'/assets/js/love/canvas-nest.min.js?v=' | append: site.github.build_revision | relative_url }}"></script>
 	
 	<script>
-	
-	(function() {
 		 function playMusic(){ 
 			var arr = ["{{site.cdn}}/media/bgm.mp3","{{site.cdn}}/media/bgm2.mp3"];
 			var myAudio = new Audio(); 
@@ -296,23 +299,15 @@
 			myAudio.src = arr.pop();         //每次读数组最后一个元素 
 			myAudio.addEventListener('ended', playEndedHandler, false); 
 			myAudio.play(); 
-			$("audioBox").append(myAudio); 
+			document.getElementById("audioBox").appendChild(myAudio); 
 			myAudio.loop = false;//禁止循环，否则无法触发ended事件 
 			
 			function playEndedHandler(){ 
-				myAudio.src = arr.pop(); 
-				myAudio.play(); 
-				!arr.length && myAudio.removeEventListener('ended',playEndedHandler,false);//只有一个元素时解除绑定 
+			myAudio.src = arr.pop(); 
+			myAudio.play(); 
+			!arr.length && myAudio.removeEventListener('ended',playEndedHandler,false);//只有一个元素时解除绑定 
 			} 
 		} 
-		 if (window.attachEvent){
-			 window.attachEvent('onload', playMusic);
-		 }else{
-			 window.addEventListener('load', playMusic, false);
-			 }
-	 })();
-	
-		
 	</script>
 	
 {% include footer.html %}
