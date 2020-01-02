@@ -2,21 +2,20 @@
 <html lang="{{ site.lang | default: " en-US" }}">
 <head>
     {% include head.html %}
-    <title>Our Story - 我们的故事</title>
-    <link type="text/css" rel="stylesheet" href="{{site.staticcdn}}/css/love-style.css">
-    <script type="text/javascript" src="{{site.staticcdn}}/js/love/jscex.js"></script>
-    <script type="text/javascript" src="{{site.staticcdn}}/js/love/jscex-parser.js"></script>
-    <script type="text/javascript" src="{{site.staticcdn}}/js/love/jscex-jit.js"></script>
-    <script type="text/javascript" src="{{site.staticcdn}}/js/love/jscex-builderbase.js"></script>
-    <script type="text/javascript" src="{{site.staticcdn}}/js/love/jscex-async.js"></script>
-    <script type="text/javascript" src="{{site.staticcdn}}/js/love/jscex-async-powerpack.js"></script>
-    <script type="text/javascript" src="{{site.staticcdn}}/js/love/functions.js" charset="utf-8"></script>
-    <script type="text/javascript" src="{{site.staticcdn}}/js/love/love.js" charset="utf-8"></script>
+    <link type="text/css" rel="stylesheet" href="{{site.cdn}}/css/love-style.css">
+    <script type="text/javascript" src="{{site.cdn}}/js/love/jscex.js"></script>
+    <script type="text/javascript" src="{{site.cdn}}/js/love/jscex-parser.js"></script>
+    <script type="text/javascript" src="{{site.cdn}}/js/love/jscex-jit.js"></script>
+    <script type="text/javascript" src="{{site.cdn}}/js/love/jscex-builderbase.js"></script>
+    <script type="text/javascript" src="{{site.cdn}}/js/love/jscex-async.js"></script>
+    <script type="text/javascript" src="{{site.cdn}}/js/love/jscex-async-powerpack.js"></script>
+    <script type="text/javascript" src="{{site.cdn}}/js/love/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="{{site.cdn}}/js/love/love.js" charset="utf-8"></script>
 </head>
 
 <body>
     <audio autoplay="autopaly" loop="loop">
-        <source src="{{site.staticcdn}}/media/bgm.mp3" type="audio/mp3">
+        <source src="{{site.cdn}}/media/bgm.mp3" type="audio/mp3">
 	</audio>
     <div id="main">
         <div id="error">本页面采用HTML5设计，目前您的浏览器无法显示，请换成谷歌(<a href="https://www.google.com/chrome">Chrome</a>)或者火狐(<a href="http://firefox.com/download/">Firefox</a>)浏览器访问。</div>
@@ -255,6 +254,9 @@
         })();
     </script>
     <!-- 注：添加下列HTML 5鼠标随动特效后在Mac平台浏览时会闪烁异常 -->
-    <script type='text/javascript' color='102,185,255' zIndex='-10' opacity='50' count='99' src='{{site.staticcdn}}/js/love/canvas-nest.min.js'></script>
+    <script type='text/javascript' color='102,185,255' zIndex='-10' opacity='50' count='99' src='{{site.cdn}}/js/love/canvas-nest.min.js'></script>
+	
+{% include footer.html %}
+{% include siteanalytics.html %}
 </body>
 </html>
