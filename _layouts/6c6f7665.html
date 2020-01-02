@@ -41,28 +41,10 @@
 			color: brown;
 		}
 	</style>
-	<script>
-		window.onload = function(){ 
-		var arr = ["{{site.cdn}}/media/bgm.mp3","{{site.cdn}}/media/bgm2.mp3"];
-		var myAudio = new Audio(); 
-		myAudio.preload = true; 
-		myAudio.controls = true; 
-		myAudio.src = arr.pop();         //每次读数组最后一个元素 
-		myAudio.addEventListener('ended', playEndedHandler, false); 
-		myAudio.play(); 
-		document.getElementById("audioBox").appendChild(myAudio); 
-		myAudio.loop = false;//禁止循环，否则无法触发ended事件 
-		function playEndedHandler(){ 
-		myAudio.src = arr.pop(); 
-		myAudio.play(); 
-		console.log(arr.length); 
-		!arr.length && myAudio.removeEventListener('ended',playEndedHandler,false);//只有一个元素时解除绑定 
-		} 
-		} 
-	</script>
+	
 </head>
 
-<body>
+<body onload="play()">
 	<div id="audioBox" style="display:none"> 
 	<!--
     <audio autoplay="autoplay" loop="loop">
@@ -307,6 +289,26 @@
     </script>
     <!-- 注：添加下列HTML 5鼠标随动特效后在Mac平台浏览时会闪烁异常 -->
     <script type='text/javascript' color='102,185,255' zIndex='-10' opacity='50' count='99' src="{{'/assets/js/love/canvas-nest.min.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+	
+	<script>
+		function play(){ 
+		var arr = ["{{site.cdn}}/media/bgm.mp3","{{site.cdn}}/media/bgm2.mp3"];
+		var myAudio = new Audio(); 
+		myAudio.preload = true; 
+		myAudio.controls = true; 
+		myAudio.src = arr.pop();         //每次读数组最后一个元素 
+		myAudio.addEventListener('ended', playEndedHandler, false); 
+		myAudio.play(); 
+		document.getElementById("audioBox").appendChild(myAudio); 
+		myAudio.loop = false;//禁止循环，否则无法触发ended事件 
+		function playEndedHandler(){ 
+		myAudio.src = arr.pop(); 
+		myAudio.play(); 
+		console.log(arr.length); 
+		!arr.length && myAudio.removeEventListener('ended',playEndedHandler,false);//只有一个元素时解除绑定 
+		} 
+		} 
+	</script>
 	
 {% include footer.html %}
 {% include siteanalytics.html %}
