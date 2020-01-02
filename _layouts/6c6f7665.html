@@ -288,7 +288,7 @@
 	<script>
 	
 	(function() {
-		 function play(){ 
+		 function playMusic(){ 
 			var arr = ["{{site.cdn}}/media/bgm.mp3","{{site.cdn}}/media/bgm2.mp3"];
 			var myAudio = new Audio(); 
 			myAudio.preload = true; 
@@ -298,16 +298,17 @@
 			myAudio.play(); 
 			$("audioBox").append(myAudio); 
 			myAudio.loop = false;//禁止循环，否则无法触发ended事件 
+			
 			function playEndedHandler(){ 
-			myAudio.src = arr.pop(); 
-			myAudio.play(); 
-			!arr.length && myAudio.removeEventListener('ended',playEndedHandler,false);//只有一个元素时解除绑定 
+				myAudio.src = arr.pop(); 
+				myAudio.play(); 
+				!arr.length && myAudio.removeEventListener('ended',playEndedHandler,false);//只有一个元素时解除绑定 
 			} 
-			} 
+		} 
 		 if (window.attachEvent){
-			 window.attachEvent('onload', play);
+			 window.attachEvent('onload', playMusic);
 		 }else{
-			 window.addEventListener('load', play, false);
+			 window.addEventListener('load', playMusic, false);
 			 }
 	 })();
 	
