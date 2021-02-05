@@ -31,7 +31,7 @@ function GetcDateString() {
     if (cDay % 10 != 0 || cDay == 10) { tmp += numString.charAt((cDay - 1) % 10); } return tmp;
 }
 function GetLunarDay(solarYear, solarMonth, solarDay) {
-    if (solarYear < 1921 || solarYear > 2020) {
+    if (solarYear < 1921 || solarYear > 9999) {
         return "";
     } else { solarMonth = (parseInt(solarMonth) > 0) ? (solarMonth - 1) : 11; e2c(solarYear, solarMonth, solarDay); return GetcDateString(); }
 }
