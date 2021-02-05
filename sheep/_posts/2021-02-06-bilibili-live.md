@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bilibili-20210206
+title: Bilibili-20210206 今日直播活动
 subtitle: 今日【直播】活动
 apptitle: Bilibili-20210206 今日直播活动
 category: sheep
