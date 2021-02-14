@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Bilibili-20210206 今日直播活动
-subtitle: 今日【直播】活动
-apptitle: Bilibili-20210206 今日直播活动
+title: Bilibili最新直播活动
+subtitle: 最新【直播】活动
+apptitle: Bilibili最新直播活动
 category: sheep
 description: Powered by ROCEYS & 全栈CEO 20210206
 permalink: /:categories/:year/:month/:day/:title
@@ -13,7 +13,8 @@ tags:
     - Activity
 ---
 
-## **[今日投稿活动 点击此处查看](https://roceys.cn/sheep/2021/02/06/bilibili)**
+## **[<u>最新投稿活动 点击此处查看</u>](https://roceys.cn/sheep/2021/02/06/bilibili)**
+
 
 <br>
 
@@ -121,3 +122,47 @@ tags:
 **数据指标：** 累计直播10h
 
 **活动链接：** ~~[https://b23.tv/UzKaUd](https://b23.tv/UzKaUd)~~
+
+
+<br>
+
+# **【请问你春节要来点buff吗】**
+
+**截止时间：** 2月28日
+
+**报名要求：** 
+
+- 粉丝量大于1000
+- 2020年12月开播时间不超过10h
+- 活动页面手动报名且需运营人工审核（每天11点后出结果）
+
+**直播频率：** 每周
+
+**直播时长：** 
+
+- 单次直播时长大于1h
+- 单周直播时长大于6h
+
+**直播分区：** <font color='red'>娱乐</font>
+
+**直播内容：** 户外 / 唱歌 / 视频聊天
+
+**活动奖金：** 
+
+- 每周达标必得66元
+- 1月1日前无开播记录 + 粉丝满1000 + 单周6h + 单次1h 瓜分1万
+
+**注意事项：** 必剪/轻视频投稿活动28号结束
+
+**数据指标：** 累计直播12h
+
+**活动链接：** [https://www.bilibili.com/blackboard/activity-GLkRY8zra.html](https://www.bilibili.com/blackboard/activity-GLkRY8zra.html)
+
+<br>
+
+# 当前页面更新日志
+
+|  _更新时间_   | _备注_ |
+|  :----:  | :----:  |
+| 2021-02-15 05:52:42  | 新增 |
+| 2021-02-06 18:24:55  | 新增 |

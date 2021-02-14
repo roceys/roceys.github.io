@@ -11,7 +11,7 @@ baidu_analytics: 5efbe8e5b402c8592d79ea93ae89a8f0 #2019-09-13 10:13:25
 theme: jekyll-theme-hacker
 markdown: kramdown
 domain: https://roceys.cn
-#domain: http://127.0.0.1:4000
+# domain: http://127.0.0.1:4000
 timezone: Asia/Shanghai
 paginate: 5
 baseurl: ""
